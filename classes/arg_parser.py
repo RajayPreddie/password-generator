@@ -15,5 +15,20 @@ class ArgParser:
     self.arg_parser.add_argument("-s", "--symbols", action="store_true", help="Include symbols")
     # Parse the args
     self.args = self.arg_parser.parse_args()
+  # Obtain the length of the password
+  def get_length(self):
+    return self.args.length
+  # Check if the password should include uppercase letters
+  def is_uppercase(self):
+    return self.args.uppercase
+  # Check if the password should include lowercase letters
+  def is_lowercase(self):
+    return self.args.lowercase
+  # Check if the password should include numbers
+  def is_numbers(self):
+    return self.args.numbers
+  # Check if the password should include symbols
+  def is_symbols(self):
+    return self.args.symbols
   
       
