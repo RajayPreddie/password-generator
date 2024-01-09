@@ -1,9 +1,9 @@
-import random
+from classes.argument_parser import ArgumentParser
 
 
 
-def generate_password(length, uppercase, lowercase, numbers, symbols):
-  return ""
+# Create an instance of the ArgumentParser class
+arguments = ArgumentParser()
 
 
 

@@ -1,5 +1,5 @@
 import argparse
-class ArgParser:
+class ArgumentParser:
   def __init__(self):
     # Argument parser
     self.arg_parser = argparse.ArgumentParser(description="Generate a password", usage="python main.py -l 10 -u -n -s")
